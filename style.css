@@ -37,7 +37,7 @@
 .header-text {
     font-weight: 500;
     font-size: 34px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .icons-holder {
@@ -56,4 +56,96 @@
     top: 70px;
     right: 0;
     width: 530px;
+}
+
+.triggers {
+    padding: 70px 0;
+}
+
+.triggers-title {
+    font-weight: 700;
+    color: #22175c;
+    font-size: 44px;
+    padding-bottom: 70px;
+}
+
+.triggers-holder {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.triggers-holder img {
+    width: 145px;
+}
+
+.trigger {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.netflix {
+    background-color: rgba(23, 97, 148, 0.22);
+    padding: 87px 0;
+}
+
+.netflix-image img {
+    width: 493px;
+}
+
+.netflix-title {
+    font-weight: 600;
+    font-size: 44px;
+    color: black;
+    padding: 25px 0;
+}
+
+.netflix-text {
+    width: 504px;
+    font-size: 31.5px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.netflix-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.netflix__price-tag {
+    display: flex;
+    align-items: center;
+    width: 431px;
+    justify-content: space-between;
+}
+
+.netflix__price-tag p {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.netflix-button {
+    display: flex;
+    align-items: center;
+    width: 231px;
+    height: 54px;
+    background-color: #AE0000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: space-around;
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.netflix-face {
+    position: absolute;
+    width: 431px;
+    top: 0;
+    right: 0;
 }
