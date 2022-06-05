@@ -132,7 +132,7 @@
     align-items: center;
     width: 231px;
     height: 54px;
-    background-color: #AE0000;
+    background-color: #ae0000;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -140,7 +140,7 @@
     padding: 0 30px;
     font-weight: 500;
     font-size: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .netflix-face {
@@ -148,4 +148,33 @@
     width: 431px;
     top: 0;
     right: 0;
+}
+
+.sony .container {
+    position: relative;
+}
+
+.sony-title {
+    padding: 78px 0;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sony-text {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.sony-button {
+    position: absolute;
+    right: 0;
+    background-color: #231025;
+    right: 0;
+}
+
+.games {
+    width: 908px;
+    display: flex;
+    margin: auto;
+    padding: 60px 0 78px 0;
 }
